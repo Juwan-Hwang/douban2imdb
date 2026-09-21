@@ -11,17 +11,18 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js"><img src="https://img.shields.io/badge/Install-orange?style=flat-square" alt="Install"></a>
+  <a href="https://greasyfork.org/zh-CN/scripts/596763"><img src="https://img.shields.io/badge/Install%20now-orange?style=for-the-badge" alt="Install now from Greasy Fork"></a>
+</p>
+
+<p align="center">
+  <a href="https://greasyfork.org/zh-CN/scripts/596763"><img src="https://img.shields.io/greasyfork/dt/596763?style=flat-square&label=Greasy%20Fork%20installs&color=yellowgreen" alt="Greasy Fork installs"></a>
   <img src="https://img.shields.io/badge/Tampermonkey-supported-green?style=flat-square" alt="Tampermonkey">
   <img src="https://img.shields.io/badge/Violentmonkey-supported-brightgreen?style=flat-square" alt="Violentmonkey">
   <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT License">
-  <img src="https://img.shields.io/badge/GreasyFork-coming%20soon-yellow?style=flat-square" alt="Greasy Fork">
-  <img src="https://img.shields.io/badge/backend-none-lightgrey?style=flat-square" alt="No backend">
-  <img src="https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square" alt="No dependencies">
   <img src="https://img.shields.io/github/stars/Juwan-Hwang/douban2imdb?style=flat-square&logo=github" alt="GitHub stars">
 </p>
 
-> 💡 一键安装：装好 [Tampermonkey](https://www.tampermonkey.net/) 后，点上方 **Install** 徽章（或[这个链接](https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js)）即可。
+> 💡 一键安装：先装好 [Tampermonkey](https://www.tampermonkey.net/)，再点上方 **Install now** 即可安装并自动获取更新。
 
 ---
 
@@ -51,7 +52,7 @@
 ## 安装
 
 1. 浏览器安装 [Tampermonkey](https://www.tampermonkey.net/) 扩展。
-2. 直接点击[`douban2imdb.user.js`](https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js)，Tampermonkey 会提示安装。
+2. 直接点击<a href="https://greasyfork.org/zh-CN/scripts/596763"><img src="https://img.shields.io/badge/Install%20now-orange?style=for-the-badge" alt="Install now from Greasy Fork"></a>按钮，Tampermonkey 会提示安装。
    - 或打开 Tampermonkey 面板 → 直接把 [`douban2imdb.user.js`](./douban2imdb.user.js)  拖进浏览器窗口，Tampermonkey 会提示安装。
    - 或打开 Tampermonkey 面板 → 「添加新脚本」→ 删除模板 → 粘贴 [`douban2imdb.user.js`](./douban2imdb.user.js) 全文 → 保存（Ctrl+S）。
 4. 确保浏览器**同时已登录** [豆瓣](https://www.douban.com/) 与 [IMDb](https://www.imdb.com/)。
