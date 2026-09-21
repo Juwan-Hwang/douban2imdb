@@ -1,0 +1,19 @@
+# 本地运行数据 / 个人观影记录（切勿提交）
+*.csv
+movies.json
+douban_raw.json
+douban_clean.csv
+
+# 日志
+*.log
+
+# 依赖 / 构建
+node_modules/
+dist/
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
