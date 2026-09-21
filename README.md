@@ -1,11 +1,27 @@
-# 豆瓣 → IMDb 同步（Douban to IMDb）
+<p align="center">
+  <img src="./icon.png" alt="Douban → IMDb" width="160" />
+</p>
 
-> 把豆瓣「看过 / 在看 / 想看」列表逐条同步到你的 IMDb 账号：标记为已看过，并按 `豆瓣星 × 2 − 1` 映射打分。
-> 一个浏览器油猴脚本，复用你自己的登录态，无需后端、无需命令行。
+<h1 align="center">豆瓣 → IMDb 同步 · Douban to IMDb</h1>
 
-English (one line): A Tampermonkey userscript that syncs your Douban movie list to your own IMDb account (mark watched + map ratings).
+<p align="center">
+  把豆瓣「看过 / 在看 / 想看」逐条同步到你的 IMDb：标记已看过 + 按 <code>豆瓣星 × 2 − 1</code> 打分。<br/>
+  纯前端油猴脚本，复用你自己的登录态 · 零后端 · 零依赖。<br/>
+  <sub>A Tampermonkey / Violentmonkey userscript that syncs your Douban movie list to your own IMDb account (mark watched + map ratings).</sub>
+</p>
 
-**一键安装 / Install**：先安装 [Tampermonkey](https://www.tampermonkey.net/)，再点 [`douban2imdb.user.js`](https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js)，Tampermonkey 会弹出安装页。
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js"><img src="https://img.shields.io/badge/Install-orange?style=flat-square" alt="Install"></a>
+  <img src="https://img.shields.io/badge/Tampermonkey-supported-green?style=flat-square" alt="Tampermonkey">
+  <img src="https://img.shields.io/badge/Violentmonkey-supported-brightgreen?style=flat-square" alt="Violentmonkey">
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT License">
+  <img src="https://img.shields.io/badge/GreasyFork-coming%20soon-yellow?style=flat-square" alt="Greasy Fork">
+  <img src="https://img.shields.io/badge/backend-none-lightgrey?style=flat-square" alt="No backend">
+  <img src="https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square" alt="No dependencies">
+  <img src="https://img.shields.io/github/stars/Juwan-Hwang/douban2imdb?style=flat-square&logo=github" alt="GitHub stars">
+</p>
+
+> 💡 一键安装：装好 [Tampermonkey](https://www.tampermonkey.net/) 后，点上方 **Install** 徽章（或[这个链接](https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js)）即可。
 
 ---
 

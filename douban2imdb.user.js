@@ -1,5 +1,8 @@
 // ==UserScript==
 // @name         豆瓣「看过」→ IMDb 同步 (Douban → IMDb)
+// @name:zh-CN   豆瓣 → IMDb 同步
+// @name:en      Douban → IMDb sync
+// @description:en Sync your Douban "seen / wishlist" movies to IMDb: mark watched + map ratings (stars x2-1). Authoritative match via the IMDb id embedded on Douban pages, with IMDb suggest as fallback. Personal use only.
 // @namespace    https://github.com/Juwan-Hwang/douban2imdb
 // @version      1.0.0
 // @homepageURL  https://github.com/Juwan-Hwang/douban2imdb
@@ -8,6 +11,8 @@
 // @downloadURL  https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/douban2imdb.user.js
 // @description  把豆瓣「看过/在看/想看」列表逐条同步到 IMDb（标记看过 + 按 星×2−1 打分）。优先用豆瓣条目页内嵌的 IMDb 编号做权威匹配，其次用 IMDb suggest 相关度+年份兜底。逻辑移植自已验证的迁移脚本。仅供个人自用。
 // @author       Juwan-Hwang
+// @license      MIT
+// @icon         https://raw.githubusercontent.com/Juwan-Hwang/douban2imdb/main/icon.png
 // @match        https://movie.douban.com/mine*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_download
